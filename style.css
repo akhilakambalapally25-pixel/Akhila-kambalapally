@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0b0f1a;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: fixed;
+    width: 100%;
+    background: #0b0f1a;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo span {
+    color: #00f2ff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.navbar li {
+    margin-left: 25px;
+}
+.navbar a {
+    color: #ccc;
+    text-decoration: none;
+}
+.navbar a.active,
+.navbar a:hover {
+    color: #00f2ff;
+}
+
+/* Home */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 60px;
+    min-height: 100vh;
+}
+
+.home-text span {
+    color: #00f2ff;
+}
+
+.social a {
+    color: #00f2ff;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+    background: #00f2ff;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn.outline {
+    background: transparent;
+    border: 1px solid #00f2ff;
+    color: #00f2ff;
+}
+
+/* Image */
+.home-img img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 40px #00f2ff;
+}
+
+/* Sections */
+section {
+    padding: 80px 60px;
+}
+
+.title {
+    text-align: center;
+    color: #00f2ff;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+    color: #ccc;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: #11162a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,242,255,0.3);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #050812;
+}
